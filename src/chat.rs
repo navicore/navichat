@@ -39,6 +39,7 @@ pub fn tool_fn(
             name: name.into(),
             description: Some(description.into()),
             parameters: Some(parameters),
+            strict: None,
         })
         .build()?;
     Ok(tool)
